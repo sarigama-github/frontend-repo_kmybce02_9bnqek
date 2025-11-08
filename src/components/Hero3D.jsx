@@ -1,12 +1,12 @@
 import React from 'react';
-import Spline from '@splinetool/react-spline';
+import SafeSpline from './SafeSpline';
 import { QrCode, Camera, MapPin } from 'lucide-react';
 
 const Hero3D = () => {
   return (
     <section className="relative h-[56vh] sm:h-[64vh] lg:h-[70vh] overflow-hidden">
       <div className="absolute inset-0">
-        <Spline scene="https://prod.spline.design/2NqhK2L3rZpH8yM7/scene.splinecode" style={{ width: '100%', height: '100%' }} />
+        <SafeSpline scene="https://prod.spline.design/2NqhK2L3rZpH8yM7/scene.splinecode" />
       </div>
 
       {/* Glass CTA panel */}

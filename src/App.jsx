@@ -3,6 +3,7 @@ import HeaderNav from './components/HeaderNav';
 import Hero3D from './components/Hero3D';
 import StatsGrid from './components/StatsGrid';
 import RewardsAndLeaderboard from './components/RewardsAndLeaderboard';
+import MapAndHistory from './components/MapAndHistory';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Hero3D />
       <StatsGrid />
       <RewardsAndLeaderboard />
+      <MapAndHistory />
 
       <footer className="py-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-sm text-neutral-600 dark:text-neutral-400">
